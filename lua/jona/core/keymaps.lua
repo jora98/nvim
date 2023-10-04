@@ -13,4 +13,4 @@ keymap.set("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }
 keymap.set("n", "<C-S>", "<cmd>w<CR>", { desc = "Save" }) -- Save with <C-S>
 
 -- terminal management
-keymap.set("t", "<C-w>h", "<C-\\><C-n><C-w>h", { silent = true })
+keymap.set("n", "<leader>st", "<cmd>ToggleTerm<CR>", { silent = true })
